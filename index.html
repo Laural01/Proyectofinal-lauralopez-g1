@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-study</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+        <!-- css personalizado -->
+
+        <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <!-- menu y logo -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="menu">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="imagenes/logo.jpeg" alt="" id="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Servicios
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#pago">Pagos en linea</a></li>
+                           
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Mis cursos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#automaquillaje">Automaquillaje</a></li>
+                            <li><a class="dropdown-item" href="#novias">Maquillaje para Novias</a></li>
+                            <li><a class="dropdown-item" href="#premium">Maquillaje Premium</a></li>
+                            <li><a class="dropdown-item" href="#unas">Uñas Acrílicas para Principiantes</a></li>
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Blog</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar cursos" aria-label="Search">
+                    <button class="btn btn-outline-danger" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- slider o carousel -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" class="active" aria-current="true" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" class="active" aria-current="true" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" class="active" aria-current="true" data-bs-slide-to="4" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" class="active" aria-current="true" data-bs-slide-to="5" aria-label="Slide 5"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/imagenes/imagens/cursos.png" class="d-block w-100 alto-img" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>GRACIAS</h5>
+                    <p>Por Preferirnos</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="/imagenes/otras/maquillaje/automaquilllaje.jpg" class="d-block w-100 alto-img" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Automaquillaje</h5>
+                    <p>Pregunta por Tu Curso</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/imagenes/otras/maquillaje/maquilllaje de novia.jpg" class="d-block w-100 alto-img" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Maquillaje de novia</h5>
+                    <p>Pregunta por Tu Curso</p>
+                </div>
+            </div>
+
+            </div>
+         <div class="carousel-item">
+            <img src="/imagenes/otras/maquillaje/maquillaje premium.jpg" class="d-block w-100 alto-img" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Maquillaje Premium</h5>
+                <p>Pregunta por Tu Curso</p>
+            </div>
+         </div>
+
+        <div class="carousel-item">
+            <img src="/imagenes/otras/uñas acrilicas/uñas acrilicas pp.jpg" class="d-block w-100 alto-img" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Uñas Acrilicas para Principiantes</h5>
+                <p>Pregunta por Tu Curso.
+                    
+                    <a href="http://" target="_blank" rel="noopener noreferrer" class="btn btn-warning"></a> </p>
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- seccion de novedades -->
+    <div class="row row-cols-1 row-cols-md-3 g-4" id="novedades">
+        <h2 class="titulo">Novedades</h2>
+        <div class="col">
+            <div class="card">
+                <img src="imagenes/otras/maquillaje/automaquilllaje.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Automaquillaje</h5>
+                    <p class="card-text">Aprenderas a realzar tus rasgos faciales como una profesional; conocerás las herramientas y técnicas necesarias para lograr un maquillaje sencillo e impecable, conociendo desde los fundamentos básicos hasta los trucos más avanzados, que te permitirán crear looks impresionantes. También aprenderás a elegir los
+                    productos adecuados, a corregir imperfecciones y a resaltar tus mejores rasgos de manera natural y creativa, según tu tipo de piel. ¡No esperes más!</p>
+                    <a href="http://" target="_blank" rel="noopener noreferrer" class="btn-btn-danger">comprar</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="imagenes/otras/maquillaje/maquilllaje de novia.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Maquillaje de Novia</h5>
+                    <p class="card-text">Encuentra información y herramientas necesarias para maquillar y asesorar estéticamente a las novias </p>
+                    <a href="http://" target="_blank" rel="noopener noreferrer" class="btn-btn-danger">comprar</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="imagenes/otras/maquillaje/set mp.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Maquillaje Premium</h5>
+                    <p class="card-text">Curso personalizado, que te prepara profesionalmente para entrar al maravilloso mundo del Maquillaje Profesional, donde
+                    aprenderas tecnicas, usos y aplicación de materiales, teniendo en cuenta el tipo de maquillaje según la ocasión y descubriendo un estilo propio.</p>
+                    <a href="http://" target="_blank" rel="noopener noreferrer" class="btn-btn-danger">comprar</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="imagenes/otras/uñas acrilicas/uñas acrilicas pp.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Uñas Acrilicas para Principiantes</h5>
+                    <p class="card-text">En este curso aprenderas sobre la preparación de las uñas, corte, colocación de molde, preparación de la lamina ungueal, etc</p>
+                    <a href="http://" target="_blank" rel="noopener noreferrer" class="btn-btn-danger">comprar</a>
+                </div>
+            </div>
+        </div>
+       </div>
+
+      <!-- seccion Pagos  -->
+     <div class="row row-cols-1 row-cols-md-1 g-4" id="pago">
+     <h2 class="titulo">Pagos en linea</h2>
+     <div class="col">
+        <div class="card">
+            <img src="imagenes/imagens/boton compra curso.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">ADQUIERE AHORA TU CURSO </h5>
+                <p class="card-text"></p>
+                <a href="https://wa.me/3136347109" target="_blank" rel="noopener noreferrer" class="btn-btn-danger">Pagar Curso</a>
+            </div>
+        </div>
+     </div>
+     
+    
+</div>
+
+    
+
+        <!-- asesorias  -->
+
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                        aria-expanded="true" aria-controls="collapseOne">
+                        Acerca de los Cursos Online
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>E-study</strong> Es una plataforma para comprar cursos online; En nuestra plataforma encontraras instructores de todo el mundo enseñando a millones de estudiantes en E-study. Te proporcionamos las herramientas y las
+                        habilidades necesarias para que aprendas con los mejores profesionales lo que te apasiona desde la comodidad de tu hogar
+                       
+                        These classes control the overall
+                        appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                        custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
+                        within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  <img src="imagenes/imagens/cursos online.png" alt>
+                <a href="https://wa.me/3004527462?text=buenisss%0A" target="blank" class="btn btn-outline-dark"><i
+                        class="fa-brands fa-whatsapp"></i>Clic aqui para mas información</a>
+                <a href="https://wa.me/3105188168?text=Atenci%C3%B3n%20a%20las%20asesor%C3%ADas" target="_blank"
+                    class="btn btn-outline-dark">Otras opciones</a>
+                   
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        ¡Encuentra tú Curso!
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                        appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                        custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
+                        within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                    <img src="imagenes/imagens/cursos-online.png" alt="">
+                    <a href="https://wa.me/3004527462?text=buenisss%0A" target="blank" class="btn btn-outline-dark"><i
+                            class="fa-brands fa-whatsapp"></i>Para mas información click aqui</a>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Asesoria en cursos
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+                        plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                        appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                        custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
+                        within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                    <img src="/imagenes/otras/maquillaje/img sombras.webp" alt="">
+                    <a href="https://wa.me/3004527462?text=buenisss%0A" target="blank" class="btn btn-outline-dark"><i
+                            class="fa-brands fa-whatsapp"></i>Para mas informacion click aqui</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer - BEM en html y css -->
+        <footer id="page-footer">
+            <div class="ftcontainer">
+                <div class="footer__menu">
+                    <figure>
+                        <img src="imagenes/logo.jpeg" alt="" class="footer__logo">
+                    </figure>
+                    <p class="ft-social-row">
+                        <a class="ft-social" href="https://wa.me/3105188168?text=Atenci%C3%B3n%20al%20cliente!!"
+                            target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a class="ft-social" href="https://www.facebook.com" target="_blank"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a class="ft-social" href="https://www.instagram.com" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a class="ft-social" href="https://www.youtube.com" target="_blank"><i
+                                class="fa-brands fa-youtube"></i></a>
+                    </p>
+                </div>        
+                 <!-- Enlaces -->
+                 <div class="footer__menu">
+                  <h4 class="footer__title">Enlaces</h4>
+                 <ul class="ft-link">
+                 <li class="footer__link">
+                  <a href="#" target="_blank" class="ft-social">Inicio</a>
+                  </li>
+                  <li class="footer__link">
+                 <a href="nosotros.html" target="_blank" class="ft-social">Nosotros</a>
+                 </li>
+                  <li class="footer__link">
+                  <a href="condiciones.html" target="_blank" class="ft-social">Mis Cursos</a>
+                 </li>
+                 </ul>
+                 </div>
+                 </div>
+                 <!-- contactos -->
+                 <div class="footer__menu">
+                    <h4 class="footer__title">Contactos</h4>
+                    <p class="footer__info">
+                        <i class="fa-solid fa-envelope"></i>
+                        Email: e-study@cursos.com
+                    </p>
+                    <p class="footer__info">
+                        <i class="fa-solid fa-mobile"></i>
+                        Celular: 3136347131
+                    </p>
+                    <p class="footer__info">
+                        <i class="fa-solid fa-location-dot"></i>
+                        Dirección: Calle 125 #11-217
+                    </p>
+                </div>
+            </div>
+            <div class="footer-credits">
+                &copy; 2023 - E-study - All rights reserved - Desing: <a href="#" target="_blank">Laura Londoño Lopez.</a>
+                <li class="footer__link">
+                    <a href="condiciones.html" target="_blank" class="ft-social">Términos y condiciones</a>
+                </li>
+                
+            </div>
+        </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>
